@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contáctanos para más información sobre nuestros productos y servicios.">
-    <title>Contacto - Empresa Ejemplo</title>
+    <meta name="description" content="Galería de los mejores productos y servicios de nuestra empresa.">
+    <title>Galería - Empresa Ejemplo</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styleInd.css">
+    <link rel="stylesheet" href="../css/stylegal.css">
 </head>
 <body>
     <header class="bg-dark text-white text-center p-3">
@@ -26,25 +26,22 @@
         </nav>
     </header>
     <section class="container my-5">
-        <h2 class="text-center">Contacto</h2>
-        <div class="row justify-content-center">
-            <div class="col-md-6">
-                <form id="contactForm" class="p-3">
-                    <div class="form-group">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Correo Electrónico:</label>
-                        <input type="email" id="email" name="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" class="form-control" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-                    <div id="statusMessage" class="mt-3"></div>
-                </form>
+        <h2 class="text-center">Galería de Productos y Servicios</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="producto1.jpg" class="card-img-top" alt="Producto 1">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="producto2.jpg" class="card-img-top" alt="Producto 2">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="producto3.jpg" class="card-img-top" alt="Producto 3">
+                </div>
             </div>
         </div>
     </section>
@@ -55,6 +52,5 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="./js/script.js"></script>
 </body>
 </html>

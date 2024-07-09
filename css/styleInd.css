@@ -1,10 +1,14 @@
+@font-face {
+    font-family:"sevillana" ;
+    src: url(../fonts/Sevillana-Regular.ttf);
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
 
 .hero {
-    background: url('hero.jpg') no-repeat center center/cover;
+    background: url('../images/banner.jpg') no-repeat center center/cover;
     height: 400px;
     color: #fff;
     position: relative;
@@ -18,4 +22,16 @@ body {
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.card img{
+    max-height: 300px;
+}
+h1{
+ font-family: "sevillana";
+ font-size: 4rem;
+}
+#thing{
+    font-family: "sevillana";
+    font-size: 3rem;
 }

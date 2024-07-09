@@ -35,3 +35,60 @@ h1{
     font-family: "sevillana";
     font-size: 3rem;
 }
+
+@media (max-width: 1200px) {
+    .hero {
+        height: 300px;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    #thing {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero {
+        height: 250px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    #thing {
+        font-size: 2rem;
+    }
+    .card img {
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 200px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    #thing {
+        font-size: 1.5rem;
+    }
+    .card img {
+        max-height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        height: 150px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    #thing {
+        font-size: 1.25rem;
+    }
+    .card img {
+        max-height: 150px;
+    }
+}
